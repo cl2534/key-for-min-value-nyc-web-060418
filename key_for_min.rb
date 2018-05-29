@@ -11,6 +11,5 @@ def key_for_min_value(name_hash)
         firstkey = name
       end 
     return firstkey 
-    end 
-    return nil 
+    return nil if name_hash.length <= 0 
 end
