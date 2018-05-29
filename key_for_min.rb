@@ -9,5 +9,7 @@ def key_for_min_value(name_hash)
       if value < firstval 
         firstval = value
         firstkey = name
-        
+      end 
+    end 
+    
 end
